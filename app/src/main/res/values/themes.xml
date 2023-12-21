@@ -1,0 +1,36 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.ASICTSElection" parent="Theme.Material3.Light.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/green_500</item>
+        <item name="colorPrimaryVariant">@color/green_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/red</item>
+        <item name="colorSecondaryVariant">@color/red</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+        <item name="android:windowBackground">@color/green_700</item>
+        <item name="android:navigationBarColor">@color/green_700</item>
+    </style>
+
+    <style name="Theme.Launcher" parent="Base.Theme.ASICTSElection">
+        <item name="android:windowBackground">@drawable/launcher_background</item>
+    </style>
+
+    <style name="mySpinnerItem" parent="@style/Widget.AppCompat.DropDownItem.Spinner">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@color/green_200</item>
+    </style>
+
+    <style name="myListItem" parent="@style/Widget.AppCompat.ListView">
+        <item name="android:textColor">@color/red</item>
+    </style>
+
+    <style name="Theme.ASICTSElection" parent="Base.Theme.ASICTSElection" />
+</resources>

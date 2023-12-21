@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "426896490107",
+    "project_id": "asictselection",
+    "storage_bucket": "asictselection.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:426896490107:android:c33284dbaf7d76c1b7ecde",
+        "android_client_info": {
+          "package_name": "ng.org.asicts.election"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCATJKHxH46Qb2fPCPeU7XOp0SEik6sU7A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
